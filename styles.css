@@ -1,28 +1,62 @@
-body{
-	font-family: arial;
+*{
+	margin: 0;
 }
-
-.menu{
-	list-style: none;
+body{
+	font-family: Arial;
+}
+header{
+	margin: 0;
 	padding: 0;
+}
+.menu {
 	background: #181824;
-	width: 100%;
-	margin: auto;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 .menu li a{
 	text-decoration: none;
 	color: white;
-	padding: 20px;
+	padding: 30px;
 	display: block;
+	margin: 0px;
 }
 
 .menu li{
 	display: inline-block;
 	text-align: right;
+
 }
 
 .menu li a:hover{
 	background: #e3616d;
-    padding: 35px;
+	padding: 35px;
+}
+
+main{
+	margin-top: 80px;
+}
+
+.p_title{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.parrafo{
+	margin-top: 15px;
+}
+
+footer{
+	background-color: rgb(61, 62, 65);
+	margin-top: 70px;
+}
+
+.foot{
+	list-style: none;
+}
+
+.element {
+	margin-top: 40px;
+	color: white;
 }
