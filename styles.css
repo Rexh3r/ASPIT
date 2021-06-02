@@ -59,7 +59,15 @@ footer{
 	list-style: none;
 }
 
-.element {
+.element{
 	color: white;
 	margin-top: 50px;
+}
+
+.prototype{
+	background-color: #e3606d;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 3px;
+	margin: 500px;
 }
