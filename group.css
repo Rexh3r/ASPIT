@@ -84,3 +84,41 @@ header{
 	background-color: gray;
 	color: white;
 }
+
+.names li{
+	background: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 25px;
+	margin: 15px;
+	margin-top: 40px;
+	list-style: none;
+	width: 45%;
+	border-radius: 4px;
+	display: inline-block;
+	font-size: 23px;
+	cursor: pointer;
+}
+
+img{
+	width: 60px;
+	margin: 5px;
+	display: block;
+}
+
+.boton{
+	background: #e3606d;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	margin: 3px;
+	margin-top: 10px;
+	color: white;
+	width: 40%;
+	text-align: center;
+	box-shadow: 15px 0px 0px 0px pink;
+}
+
+.boton:hover{
+	box-shadow: 10px 0px 0px 0px pink;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
